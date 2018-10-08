@@ -1,0 +1,196 @@
+* {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+ /* NAVIGATION-BAR */
+
+ nav {
+     background: #3C3C3C;
+     height: 39px;
+ }
+
+ .navigation-list {
+     margin: 0 auto;
+     width: 57%;
+ }
+
+
+.navigation-list li {
+    display: inline-block;
+}
+
+.navigation-list li>a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 3px;
+}
+
+.navigation-list li>a:hover,
+.navigation-list li>a:active {
+    background: black;
+    border-bottom: 5px solid orange;
+}
+
+
+.courses {
+    
+}
+
+ .courses-dropdown {
+    display: none;
+ }
+
+
+ /* HEADER */
+
+header {
+    background: #018388; 
+    height: 100px;
+}
+
+.header {
+    margin: 0 auto;
+    width: 57%;
+    position: relative;
+ }
+
+.log-in {
+    padding: 15px 0;
+ }
+
+.log-in a {
+    display: block;
+    padding-right: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+ }
+
+ .log-in a:hover,
+ .log-in a:active {
+     text-decoration: underline;
+ }
+
+
+.logo-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-pic img {
+    height: 100%;
+}
+
+ 
+ /* BUTTONS  */
+
+.buttons {
+    margin: 0 auto;
+    width: 57%;
+    position: relative;
+}
+
+.buttons button {
+    position: absolute;
+    padding: 5px;
+    color: black;
+    background-color: #F0F0F0;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    top: 15px;
+}
+
+
+.buttons-second button:hover,
+.buttons-second button:active,
+.buttons button:hover,
+.buttons button:active {
+    background: lightgrey;
+}
+
+.buttons .first {
+    left: 134px;
+}
+
+.buttons .second {
+    left: 6px;
+}
+
+ /* MAIN */
+
+ main {
+     background: #F0F0F0;
+     /* background: red; */
+     height: 100%;
+ }
+
+ .main-container {
+    margin: 0 auto;
+    width: 57%;
+    position: relative;
+    background: #FFFFFF;
+    top: 55px;
+    padding-bottom: 45px;
+    /* background: red; */
+ }
+
+ .main-container h2,
+ .main-container a {
+     color: #018388;
+ }
+
+ .main-container h2 {
+     font-size: 1.5rem;
+     font-weight: lighter;
+ }
+
+ .main-container a {
+     text-decoration: none;
+ }
+
+ .main-container a:hover,
+ .main-container a:active {
+     color: black;
+ }
+
+ .right-side {
+     width: 49%;
+     position: relative;
+     top: 15px;
+     right: 8px;
+ }
+
+ .left-side {
+     width: 40%;
+     position: absolute;
+     top: 15px;
+     left: 5px;
+ }
+
+ .buttons-second {
+
+     height: 40px;
+     position: absolute;
+     left: 410px;
+     bottom: 400px;
+ }
+ 
+ .buttons-second button {
+         padding: 5px;
+    color: black;
+    background-color: #F0F0F0;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+ }
+
